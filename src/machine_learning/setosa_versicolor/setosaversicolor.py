@@ -4,6 +4,11 @@ import pandas as pd
 import src.machine_learning.perceptron.Perceptron as perceptron
 
 
+# v1 = np.array([1, 2, 3])
+# v2 = 0.5 * v1
+# print(np.arccos(v1.dot(v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))))
+# flower_functions.plot_flowers()
+
 # seleccionar setosa y versicolor
 def plot_flowers():
     df = pd.read_csv('https://archive.ics.uci.edu/ml/'
