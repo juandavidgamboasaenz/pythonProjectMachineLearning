@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="791adba4-1066-41f4-8635-418717989bb1" name="Changes" comment="Added License Apache default from github template">
-      <change afterPath="$PROJECT_DIR$/src/practie_question/PracticeQuestion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practie_question/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/machine_learning/setosa_versicolor/setosaversicolor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/machine_learning/setosa_versicolor/setosaversicolor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="791adba4-1066-41f4-8635-418717989bb1" name="Changes" comment="&quot;Test push&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/holyn/PycharmProjects/pythonProject/src/main.py",
     "node.js.detected.package.eslint": "true",
