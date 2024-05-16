@@ -46,10 +46,13 @@ class Perceptron(object):
 
         """
 
+        # TODO change the way it makes an instance to be a external class parameter
+        # TODO Create a natural language model to process
         rgen = np.random.RandomState(self.random_state)
-        self.w_ = rgen.normal(loc=0.0, scale=0.01,
+        self.w_ = rgen.normal(loc=0.0, scale=0.1,
                               size=1 + x.shape[1])
 
+        #Calculate error
         self.errors_ = []
         for _ in range(self.n_iter):
             errors = 0
