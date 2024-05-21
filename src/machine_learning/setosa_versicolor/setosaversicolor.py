@@ -14,28 +14,6 @@ df = pd.read_csv('https://archive.ics.uci.edu/ml/'
 X, y = dataset.Data().dataset()
 
 
-def plot_flowers(ppn=None):
-    # representar los datos
-    plt.scatter(X[:50, 0], X[:50, 1],
-                color='red', marker='o', label='Iris-setosa')
-
-    plt.scatter(X[50:100, 0], X[50:100, 1],
-                color='blue', marker='x', label='Iris-versicolor'),
-
-    plt.xlabel('sepal length [cm]')
-    plt.ylabel('petal length [cm]')
-    plt.legend(loc='upper left')
-
-    plt.show()
-
-    plt.plot(range(1, len(ppn.errors_) + 1),
-             ppn.errors_, marker='o')
-
-    plt.xlabel('Epochs')
-    plt.ylabel('Number of updates')
-    plt.show()
-
-
 class SetosaVersicolor:
     data_set = dataset.Data()
 
@@ -49,9 +27,10 @@ class SetosaVersicolor:
     # seleccionar setosa y versicolor
 
     def __init__(self):
+        self.errors_ = None
         self.resolution = None
 
-    def plot_decision_regions(self, resolution, ppn=perceptron, data=data_set):
+    def plot_decision_regions(self, resolution=None, ppn=perceptron, data=data_set):
         self.resolution = resolution
         self.ppn = ppn
         self.data_set = data_set
@@ -84,5 +63,26 @@ class SetosaVersicolor:
 
                 # edgecolor='black'
             )
+
+    def plot_flowers(ppn=None):
+        # representar los datos
+        plt.scatter(X[:50, 0], X[:50, 1],
+                    color='red', marker='o', label='Iris-setosa')
+
+        plt.scatter(X[50:100, 0], X[50:100, 1],
+                    color='blue', marker='x', label='Iris-versicolor'),
+
+        plt.xlabel('sepal length [cm]')
+        plt.ylabel('petal length [cm]')
+        plt.legend(loc='upper left')
+
+        plt.show()
+
+        plt.plot(range(1, len(ppn.errors_) + 1),
+                 ppn.errors_, marker='o')
+
+        plt.xlabel('Epochs')
+        plt.ylabel('Number of updates')
+        plt.show()
 
 #

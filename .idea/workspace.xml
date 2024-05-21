@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="791adba4-1066-41f4-8635-418717989bb1" name="Changes" comment="Updated scale of Perceptron.py class it need to be declared as class that can">
-      <change afterPath="$PROJECT_DIR$/src/machine_learning/adaline_GD/AdalineGD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/machine_learning/adaline_GD/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/machine_learning/data_set/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/machine_learning/data_set/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="791adba4-1066-41f4-8635-418717989bb1" name="Changes" comment="Created data set class to handle data input and AdalineGD.py with new algorithm to work with NN. Updated Setosaversicolor.py renamed perceptron.py from Perceptron.py">
+      <change afterPath="$PROJECT_DIR$/src/practice_question/PracticeQuestion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/machine_learning/perceptron/Perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/machine_learning/perceptron/perceptron.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/machine_learning/setosa_versicolor/setosaversicolor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/machine_learning/setosa_versicolor/setosaversicolor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practie_question/PracticeQuestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/practie_question/PracticeQuestion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practie_question/PracticeQuestion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practie_question/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice_question/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +140,13 @@
       <workItem from="1715650077297" duration="9760000" />
       <workItem from="1715662176156" duration="4204000" />
       <workItem from="1715712514139" duration="12466000" />
-      <workItem from="1715815336521" duration="15273000" />
+      <workItem from="1715815336521" duration="15582000" />
+      <workItem from="1715875241520" duration="1041000" />
+      <workItem from="1715961050064" duration="1841000" />
+      <workItem from="1715964288652" duration="4003000" />
+      <workItem from="1715975306191" duration="883000" />
+      <workItem from="1716251056636" duration="2123000" />
+      <workItem from="1716312077958" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="Added License Apache default from github template">
       <option name="closed" value="true" />
@@ -154,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713820814457</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created data set class to handle data input and AdalineGD.py with new algorithm to work with NN. Updated Setosaversicolor.py renamed perceptron.py from Perceptron.py">
+      <option name="closed" value="true" />
+      <created>1715834586803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715834586803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,30 +172,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added License Apache default from github template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added License Apache default from github template" />
+    <MESSAGE value="Created data set class to handle data input and AdalineGD.py with new algorithm to work with NN. Updated Setosaversicolor.py renamed perceptron.py from Perceptron.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created data set class to handle data input and AdalineGD.py with new algorithm to work with NN. Updated Setosaversicolor.py renamed perceptron.py from Perceptron.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/practie_question/PracticeQuestion.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/machine_learning/setosa_versicolor/setosaversicolor.py</url>
-          <line>76</line>
+          <line>55</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/machine_learning/setosa_versicolor/setosaversicolor.py</url>
-          <line>61</line>
+          <line>40</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/machine_learning/adaline_GD/AdalineGD.py</url>
           <line>6</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -196,7 +207,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProjectMachineLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1715820216583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pythonProjectMachineLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1716253019101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1713735905489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

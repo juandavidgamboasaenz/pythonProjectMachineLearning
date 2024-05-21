@@ -1,13 +1,3 @@
-# This is a sample Python script.
-import matplotlib.pyplot as plt
-import numpy as np
-import src.machine_learning.setosa_versicolor.setosaversicolor as flower_functions
-import src.machine_learning.perceptron.perceptron as perceptron_class
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-import src.practie_question.PracticeQuestion
-from src.practie_question import PracticeQuestion
 
 
 def print_hi(name):
@@ -17,8 +7,11 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    # flower_functions.plot_flowers()
-    flower_functions.plot_decision_regions()
+    pass
+    # exec_1 = practice_class.PracticeQuestion(['cinema', 'iceman'], ['iceman', 'cinema']).find_anagram_words()
+    # exec_2 = practice_class.PracticeQuestion(['test', 'stet'], ['tent', 'nett']).find_anagram_words()
+    # exec_3 = practice_class.PracticeQuestion(['hello', 'world'], ['dolly', 'sir']).find_anagram_words()
 
-
-
+    # print(exec_1)
+    # print(exec_2)
+    # print(exec_3)
